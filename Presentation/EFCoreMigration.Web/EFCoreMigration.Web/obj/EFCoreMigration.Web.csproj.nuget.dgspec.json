@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ProfessionalFiles\\EFCoreMigration\\Presentation\\EFCoreMigration.Web\\EFCoreMigration.Web\\EFCoreMigration.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\ProfessionalFiles\\EFCoreMigration\\Libraries\\EFCoreMigration.Core\\EFCoreMigration.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProfessionalFiles\\EFCoreMigration\\Libraries\\EFCoreMigration.Core\\EFCoreMigration.Core.csproj",
+        "projectName": "EFCoreMigration.Core",
+        "projectPath": "D:\\ProfessionalFiles\\EFCoreMigration\\Libraries\\EFCoreMigration.Core\\EFCoreMigration.Core.csproj",
+        "packagesPath": "C:\\Users\\qingfengzhuo\\.nuget\\packages\\",
+        "outputPath": "D:\\ProfessionalFiles\\EFCoreMigration\\Libraries\\EFCoreMigration.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\qingfengzhuo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.8, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\ProfessionalFiles\\EFCoreMigration\\Libraries\\EFCoreMigration.Data\\EFCoreMigration.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProfessionalFiles\\EFCoreMigration\\Libraries\\EFCoreMigration.Data\\EFCoreMigration.Data.csproj",
+        "projectName": "EFCoreMigration.Data",
+        "projectPath": "D:\\ProfessionalFiles\\EFCoreMigration\\Libraries\\EFCoreMigration.Data\\EFCoreMigration.Data.csproj",
+        "packagesPath": "C:\\Users\\qingfengzhuo\\.nuget\\packages\\",
+        "outputPath": "D:\\ProfessionalFiles\\EFCoreMigration\\Libraries\\EFCoreMigration.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\qingfengzhuo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\ProfessionalFiles\\EFCoreMigration\\Libraries\\EFCoreMigration.Core\\EFCoreMigration.Core.csproj": {
+                "projectPath": "D:\\ProfessionalFiles\\EFCoreMigration\\Libraries\\EFCoreMigration.Core\\EFCoreMigration.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.8, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\ProfessionalFiles\\EFCoreMigration\\Presentation\\EFCoreMigration.Web\\EFCoreMigration.Web\\EFCoreMigration.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProfessionalFiles\\EFCoreMigration\\Presentation\\EFCoreMigration.Web\\EFCoreMigration.Web\\EFCoreMigration.Web.csproj",
+        "projectName": "EFCoreMigration.Web",
+        "projectPath": "D:\\ProfessionalFiles\\EFCoreMigration\\Presentation\\EFCoreMigration.Web\\EFCoreMigration.Web\\EFCoreMigration.Web.csproj",
+        "packagesPath": "C:\\Users\\qingfengzhuo\\.nuget\\packages\\",
+        "outputPath": "D:\\ProfessionalFiles\\EFCoreMigration\\Presentation\\EFCoreMigration.Web\\EFCoreMigration.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\qingfengzhuo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\ProfessionalFiles\\EFCoreMigration\\Libraries\\EFCoreMigration.Core\\EFCoreMigration.Core.csproj": {
+                "projectPath": "D:\\ProfessionalFiles\\EFCoreMigration\\Libraries\\EFCoreMigration.Core\\EFCoreMigration.Core.csproj"
+              },
+              "D:\\ProfessionalFiles\\EFCoreMigration\\Libraries\\EFCoreMigration.Data\\EFCoreMigration.Data.csproj": {
+                "projectPath": "D:\\ProfessionalFiles\\EFCoreMigration\\Libraries\\EFCoreMigration.Data\\EFCoreMigration.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

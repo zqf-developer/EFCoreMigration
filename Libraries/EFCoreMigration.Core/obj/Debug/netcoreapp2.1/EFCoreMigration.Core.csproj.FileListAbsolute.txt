@@ -1,0 +1,8 @@
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Core\bin\Debug\netcoreapp2.1\EFCoreMigration.Core.deps.json
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Core\bin\Debug\netcoreapp2.1\EFCoreMigration.Core.dll
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Core\bin\Debug\netcoreapp2.1\EFCoreMigration.Core.pdb
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Core\obj\Debug\netcoreapp2.1\EFCoreMigration.Core.csproj.CoreCompileInputs.cache
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Core\obj\Debug\netcoreapp2.1\EFCoreMigration.Core.AssemblyInfoInputs.cache
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Core\obj\Debug\netcoreapp2.1\EFCoreMigration.Core.AssemblyInfo.cs
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Core\obj\Debug\netcoreapp2.1\EFCoreMigration.Core.dll
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Core\obj\Debug\netcoreapp2.1\EFCoreMigration.Core.pdb

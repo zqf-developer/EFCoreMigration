@@ -1,0 +1,14 @@
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Data\bin\Debug\netcoreapp2.1\EFCoreMigration.Data.deps.json
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Data\bin\Debug\netcoreapp2.1\EFCoreMigration.Data.runtimeconfig.json
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Data\bin\Debug\netcoreapp2.1\EFCoreMigration.Data.runtimeconfig.dev.json
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Data\bin\Debug\netcoreapp2.1\EFCoreMigration.Data.dll
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Data\bin\Debug\netcoreapp2.1\EFCoreMigration.Data.pdb
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Data\bin\Debug\netcoreapp2.1\EFCoreMigration.Core.dll
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Data\bin\Debug\netcoreapp2.1\EFCoreMigration.Core.pdb
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Data\obj\Debug\netcoreapp2.1\EFCoreMigration.Data.csprojAssemblyReference.cache
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Data\obj\Debug\netcoreapp2.1\EFCoreMigration.Data.csproj.CoreCompileInputs.cache
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Data\obj\Debug\netcoreapp2.1\EFCoreMigration.Data.AssemblyInfoInputs.cache
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Data\obj\Debug\netcoreapp2.1\EFCoreMigration.Data.AssemblyInfo.cs
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Data\obj\Debug\netcoreapp2.1\EFCoreMigration.Data.csproj.CopyComplete
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Data\obj\Debug\netcoreapp2.1\EFCoreMigration.Data.dll
+D:\ProfessionalFiles\EFCoreMigration\Libraries\EFCoreMigration.Data\obj\Debug\netcoreapp2.1\EFCoreMigration.Data.pdb
