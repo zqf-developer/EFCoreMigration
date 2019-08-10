@@ -5,6 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <None Remove="Migrations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Migrations\20190810070529_user.cs" />
+    <Compile Include="Migrations\20190810070529_user.designer.cs" />
+    <Compile Include="Migrations\20190810072509_updateUser.cs" />
+    <Compile Include="Migrations\20190810072509_updateUser.designer.cs" />
+    <Compile Include="Migrations\EfCoreMigrationObjectContextModelSnapshot.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.8">
       <PrivateAssets>all</PrivateAssets>

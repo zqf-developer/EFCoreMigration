@@ -37,6 +37,12 @@ namespace EFCoreMigration.Web.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
+            #region 反编译之后的结果
+            //ErrorViewModel errorViewModel = new ErrorViewModel();
+            //Activity activity = Activity.Current;
+            //errorViewModel.RequestId = (((activity != null) ? activity.Id : null) ?? base.HttpContext.TraceIdentifier);
+            //return this.View(errorViewModel);
+            #endregion
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
