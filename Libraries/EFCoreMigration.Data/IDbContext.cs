@@ -14,12 +14,17 @@ namespace EFCoreMigration.Data
         #region Methods
 
         /// <summary>
-        /// Creates a DbSet that can be used to query and save instances of entity
+        /// 创建可用于查询和保存实体实例的DbSet
         /// </summary>
-        /// <typeparam name="TEntity">Entity type</typeparam>
-        /// <returns>A set for the given entity type</returns>
+        /// <typeparam name="TEntity">实体类型</typeparam>
+        /// <returns>给定实体类型的集合</returns>
         DbSet<TEntity> Set<TEntity>() where TEntity : BaseEntity;
 
+        /// <summary>
+        /// 将在此上下文中所做的所有更改保存到数据库中
+        /// </summary>
+        /// <returns>写入数据库的状态条目数</returns>
+        int SaveChanges();
         #endregion
     }
 }

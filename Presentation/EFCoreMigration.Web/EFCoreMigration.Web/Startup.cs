@@ -42,6 +42,7 @@ namespace EFCoreMigration.Web
 
             // Add framework services.
             //添加ef的依赖
+          
             var connection = "server=kfvendor.gwkf.cn.;uid=sa;pwd=kf123456;database=EFCoreMigration";
             services.AddDbContext<EfCoreMigrationObjectContext>(options => options.UseSqlServer(connection));
 

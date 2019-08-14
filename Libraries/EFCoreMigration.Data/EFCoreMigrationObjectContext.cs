@@ -35,12 +35,12 @@ namespace EFCoreMigration.Data
         #region Utilities
 
         /// <summary>
-        /// Further configuration the model
+        /// Further configuration the model进一步配置模型
         /// </summary>
-        /// <param name="modelBuilder">The builder being used to construct the model for this context</param>
+        /// <param name="modelBuilder">The builder being used to construct the model for this context用于构造此上下文的模型的生成器</param>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //dynamically load all entity and query type configurations
+            //dynamically load all entity and query type configurations动态加载所有实体和查询类型配置
             var typeConfigurations = Assembly.GetExecutingAssembly().GetTypes().Where(type =>
                 (type.BaseType?.IsGenericType ?? false)
                     && (type.BaseType.GetGenericTypeDefinition() == typeof(EfCoreMigrationEntityTypeConfiguration<>)
