@@ -83,7 +83,7 @@ namespace EFCoreMigration.Data
 
             }catch(DbUpdateException exception)
             {
-                throw new Exception(,exception);
+                throw new Exception(GetFullErrorTextAndRollbackEntityChanges(exception), exception);
             }
         }
 
